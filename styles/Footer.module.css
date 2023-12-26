@@ -1,0 +1,71 @@
+.footer {
+    background-color: #445f50;
+    height: 288px;
+}
+
+.footerText {
+    color:#f9f5ec;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.footerBox {
+    display: flex;
+}
+
+
+.footerBox a{
+    padding: 20px;
+    background-color: #f9f5ec;
+    color: #304a37;
+    margin: 17px 0 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.login__label {
+    padding-left: 60px;
+    padding-top: 15px;
+    display: block;
+    width: 500px;
+}
+
+.input {
+    width: 100%;
+    background-color: none;
+    border: 2px solid #f9f5ec;
+    outline: none;
+    font-size: 0.9em;
+    padding: 25px 10px 10px;
+    background-color: #445f50;
+    font-weight: 600;
+    color: var(--deep-grey);    
+}
+
+.login__label span {
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--medium-grey);
+    margin: 20px;
+    cursor: text;
+    transition: all 200ms ease;
+}
+
+
+.input:focus {
+    background-color: none;
+    color: #f9f5ec;
+    border: 2px solid #f9f5ec;
+    border-radius: 20px;
+}
+  
+.login__label .span-active {
+    font-size: 0.5em;
+    padding-left: 15px;
+    margin: 8px 10px;
+   
+}

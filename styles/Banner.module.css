@@ -1,0 +1,49 @@
+section.home {
+    height: 450px;
+    background-color: #f9f5ec;
+}
+
+.banner1  {
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.home h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #33322f;
+}
+
+
+section.services {
+    height: 370px;
+    border: 2px solid gray;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    color: #33322f;
+    width: 100vw;
+    text-align: center;
+    
+}
+
+.container1, .container2, .container3 img {
+    justify-content: center;
+}
+
+.container1, .container2, .container3 h2 {
+    text-align: center;
+    padding: 10px;
+} 
+
+.filters h1 {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 40px;
+    color: #445f50;
+}
